@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Portfolio",
+    "description": "My web portfolio made using nextjs",
+    "github": "https://github.com/gnzcode/portfolio/",
+    "website": "https://gnzcode.com/",
+    "tecnologies": ["React", "Next JS"]
+  },
+  {
+    "id": 2,
+    "name": "Aqua Safe",
+    "description": "A website made as a class project.",
+    "github": "https://github.com/gnzcode/aqua-safe",
+    "website": "https://gnzcode.github.io/aqua-safe/",
+    "tecnologies": ["React", "Next JS"]
+  }
+]
