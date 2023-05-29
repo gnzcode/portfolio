@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import Script from "next/script";
 
 export default function Document() {
   return (
@@ -14,7 +15,7 @@ export default function Document() {
           rel="stylesheet"
           href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
         />
-        <script src="https://kit.fontawesome.com/51bcae7da6.js"></script>
+        <Script src="https://kit.fontawesome.com/51bcae7da6.js"></Script>
         <link rel="shortcut icon" href="assets/favicon.svg" type="image/svg" />
       </Head>
       <body>
