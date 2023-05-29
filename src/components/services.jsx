@@ -16,13 +16,13 @@ export default function Services() {
             name="Frontend APPS"
             description="Development of complete web applications, made in react or nextjs"
           >
-            <i className="fa-solid fa-laptop-code"></i>
+            <i className="uil uil-desktop"></i>
           </Service>
           <Service
             name="Mobile APPS"
             description="Simple apps for android and ios using react native"
           >
-            <i className="fa-brands fa-react"></i>
+            <i className="uil uil-mobile-vibrate"></i>
           </Service>
           <Service
             name="Rest API'S"

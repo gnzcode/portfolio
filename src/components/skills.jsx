@@ -17,19 +17,19 @@ export default function Skills() {
             <i className="uil uil-java-script"></i>
           </SkillCard>
           <SkillCard title="React Mobile" years={3}>
-            <i className="fa-solid fa-mobile-screen-button"></i>
+            <i className="uil uil-react"></i>
           </SkillCard>
           <SkillCard title="React" years={2}>
             <i className="uil uil-react"></i>
           </SkillCard>
           <SkillCard title="Mongo DB" years={2}>
-            <i className="fa-solid fa-database"></i>
+            <i className="uil uil-server-alt"></i>
           </SkillCard>
           <SkillCard title="Postgress" years={2}>
             <i className="uil uil-database"></i>
           </SkillCard>
           <SkillCard title="Git / Github" years={2}>
-            <i className="fa-brands fa-git-alt"></i>
+            <i className="uil uil-github-alt"></i>
           </SkillCard>
         </div>
       </Container>
