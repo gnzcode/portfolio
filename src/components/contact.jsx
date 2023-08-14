@@ -40,7 +40,7 @@ export default function Contact() {
             <div className="contact__link-icon">
               <i className="uil uil-discord"></i>
             </div>
-            <div className="contact__link-content">gnzcode#1533</div>
+            <div className="contact__link-content">gnzcode</div>
           </div>
           <div target="_blank" className="contact__link">
             <div className="contact__link-icon">

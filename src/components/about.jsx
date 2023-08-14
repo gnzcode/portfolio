@@ -1,8 +1,14 @@
+import useAnimations from "package/hooks/animations";
 import AboutSkill from "./about-skill";
 import Container from "./layout/container";
 import Section from "./layout/section";
 
 export default function About() {
+  const textAnimation = useAnimations("right-entry");
+  const jobAnimation = useAnimations("right-entry");
+  const descriptionAnimation = useAnimations(["opacity-entry", "delay-1"]);
+  const buttonAnimation = useAnimations("opacity-entry", "delay-1-5");
+  const skillsAnimation = useAnimations(["low-entry", "delay-1"]);
   return (
     <Section
       id="about"
@@ -16,7 +22,7 @@ export default function About() {
           <div className="about__image">
             <div className="about__card">
               <img
-                src="assets/about.webp"
+                src="https://github.com/gnzcode.png"
                 alt="About gnzcode"
                 className="about__img"
               />
@@ -24,27 +30,34 @@ export default function About() {
             </div>
           </div>
           <div className="about__data">
-            <h2 className="about__name">
+            <h2 className="about__name" ref={textAnimation}>
               <span className="about__icon">
                 <i className="uil uil-user-md"></i>
               </span>
               Gnzcode
             </h2>
-            <h1 className="about__job">A FULL STACK WEB DEVELOPER</h1>
-            <div className="about__description">
-              My name is Alexis Ganzalez and I am a full stack web developer. I
-              have more than 2 years of experience in web development. I learned{" "}
-              <strong>
-                javascript, css, sass, tailwindcss, react, nextjs, nodejs,
-                express, git, mongodb and postgres
-              </strong>{" "}
-              in 2020-2021 with which I was practicing on personal projects.
+            <h1 className="about__job" ref={jobAnimation}>
+              A FULL STACK WEB DEVELOPER
+            </h1>
+            <div
+              className="about__description opacity-entry"
+              ref={descriptionAnimation}
+            >
+              I started programming a few years ago during the pandemic and I
+              have dedicated myself to learning, practicing and developing what
+              I like. I enjoy challenges and even if I don't look for a job
+              before and have no work experience, I feel I can perform well in a
+              position as a web developer.
             </div>
-            <a href="#contact" className="about__button button">
+            <a
+              href="#contact"
+              ref={buttonAnimation}
+              className="about__button button"
+            >
               Contact Me <i className="uil uil-message"></i>
             </a>
           </div>
-          <div className="about__skills grid">
+          <div className="about__skills grid" ref={skillsAnimation}>
             <AboutSkill label="Proactive">
               <i className="uil uil-bolt-alt"></i>
             </AboutSkill>

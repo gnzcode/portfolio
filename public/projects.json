@@ -1,16 +1,32 @@
 [
   {
     "id": 1,
+    "name": "Kaorus",
+    "description": "A tool with which you can create project templates and share them with the community.",
+    "github": "https://github.com/gnzcode/kaorus/",
+    "website": "https://kaorus.com/",
+    "tecnologies": ["React", "Node JS", "TypeScript"]
+  },
+  {
+    "id": 2,
+    "name": "TsBind",
+    "description": "A Framework to develop Full Stack application taking advantage of the power of TypeScript.",
+    "github": "https://github.com/tsbind/tsbind",
+    "website": "https://tsbind.com/",
+    "tecnologies": ["TypeScript", "Node JS"]
+  },
+  {
+    "id": 3,
     "name": "Portfolio",
-    "description": "My web portfolio made using nextjs",
+    "description": "A simple site made with NextJS, so people can get to know me.",
     "github": "https://github.com/gnzcode/portfolio/",
     "website": "https://gnzcode.com/",
     "tecnologies": ["React", "Next JS"]
   },
   {
-    "id": 2,
+    "id": 4,
     "name": "Aqua Safe",
-    "description": "A website made as a class project.",
+    "description": "A landing page of a project I did for the school, which came to nothing.",
     "github": "https://github.com/gnzcode/aqua-safe",
     "website": "https://gnzcode.github.io/aqua-safe/",
     "tecnologies": ["React", "Next JS"]

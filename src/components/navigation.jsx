@@ -52,17 +52,11 @@ export default function Navigation() {
             <NavLink href="#" label="Home" hide={handleHideMenu}>
               <i className="uil uil-estate"></i>
             </NavLink>
-            <NavLink href="#services" label="Services" hide={handleHideMenu}>
-              <i className="uil uil-notebooks"></i>
-            </NavLink>
             <NavLink href="#about" label="About" hide={handleHideMenu}>
               <i className="uil uil-user-md"></i>
             </NavLink>
             <NavLink href="#projects" label="Projects" hide={handleHideMenu}>
               <i className="uil uil-bag"></i>
-            </NavLink>
-            <NavLink href="#skills" label="Skills" hide={handleHideMenu}>
-              <i className="uil uil-bolt-alt"></i>
             </NavLink>
             <NavLink href="#contact" label="Contact" hide={handleHideMenu}>
               <i className="uil uil-phone"></i>
