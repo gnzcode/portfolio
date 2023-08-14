@@ -5,7 +5,7 @@
     "description": "A tool with which you can create project templates and share them with the community.",
     "github": "https://github.com/gnzcode/kaorus/",
     "website": "https://kaorus.com/",
-    "tecnologies": ["React", "Node JS", "TypeScript"]
+    "tecnologies": ["React", "Node JS"]
   },
   {
     "id": 2,
