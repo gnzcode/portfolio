@@ -45,7 +45,7 @@ export default function About() {
             >
               I started programming a few years ago during the pandemic and I
               have dedicated myself to learning, practicing and developing what
-              I like. I enjoy challenges and even if I don't look for a job
+              I like. I enjoy challenges and even if I don&apos;t look for a job
               before and have no work experience, I feel I can perform well in a
               position as a web developer.
             </div>
