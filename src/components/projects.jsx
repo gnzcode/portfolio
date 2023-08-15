@@ -1,18 +1,9 @@
-import { useState, useEffect } from "react";
 import Container from "./layout/container";
 import Section from "./layout/section";
 import Project from "./project";
+import projects from "./projects.json";
 
 export default function Projects() {
-  const [projects, setProjects] = useState([]);
-  useEffect(() => {
-    const getProjects = async () => {
-      let newProjects = await fetch("/projects.json");
-      newProjects = await newProjects.json();
-      setProjects(newProjects);
-    };
-    getProjects();
-  }, []);
   return (
     <Section
       id="projects"
