@@ -693,6 +693,14 @@ button {
   background-color: var(--body-color);
 }
 
+.project__tecnologies {
+  color: var(--first-color);
+  display: flex;
+  gap: 1em;
+  font-size: 0.875em;
+  margin-bottom: var(--mb-1);
+}
+
 @media screen and (max-width: 41.99em) {
   .navigation__menu {
     position: absolute;
